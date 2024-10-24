@@ -2,16 +2,11 @@
 
 **Dialogflow CX** provides a set of **system functions** that allow you to perform dynamic operations within your agent's conversational flows. These functions enable you to manipulate data, evaluate conditions, and generate dynamic responses during conversations. You can use system functions in conditions, static response messages, parameter presets, and webhook header values.
 
----
-
 ### **Function Syntax**
-
 All system functions follow a specific syntax pattern:
-
 ```
 $sys.func.<FUNCTION_NAME>(<ARGUMENT_1>, <ARGUMENT_2>, ...)
 ```
-
 - **Function Name**: The name of the system function you want to use, written in uppercase letters (e.g., `ADD`, `SUBSTITUTE`).
 - **Arguments**: The inputs required by the function, which can be inline values (like numbers, strings, booleans, lists), references to parameters (e.g., `$session.params.parameterName`), or nested functions.
 
@@ -32,13 +27,9 @@ System functions can be applied in various parts of your agent:
 - **Parameter Presets**: To assign values to parameters based on dynamic calculations or manipulations.
 - **Webhook Header Values**: To include dynamic data in webhook requests.
 
----
-
 ### **Checking Function Results**
 
 During a conversation, the results of system function evaluations are stored in the `QueryResult`. Specifically, you can find them under the `SystemFunctionResults` key within the `DiagnosticInfo` structure. This is useful for debugging and ensuring that your functions are producing the expected outputs.
-
----
 
 ### **Key System Functions**
 
@@ -218,8 +209,6 @@ Below is an overview of some commonly used system functions, along with examples
   - **Syntax**: `$sys.func.IS_CREDIT_CARD_NUMBER(cardNumber)`
   - **Example**: `$sys.func.IS_CREDIT_CARD_NUMBER("4111111111111111")` returns `true`.
 
----
-
 ### **Best Practices**
 
 - **Error Handling**: Be mindful that some functions can produce errors (e.g., division by zero). Always validate inputs or use conditional functions to handle potential errors gracefully.
@@ -229,8 +218,6 @@ Below is an overview of some commonly used system functions, along with examples
 - **Parameter References**: When referencing parameters, use the correct syntax (e.g., `$session.params.parameterName`). Remember that if a parameter is not set, it is treated as `null`.
 
 - **Nested Functions**: You can nest functions within other functions to perform complex operations. Ensure that nested functions are properly formatted and that their outputs are compatible with the parent function.
-
----
 
 ### **Examples in Practice**
 
@@ -263,8 +250,6 @@ $sys.func.IF(
   "Please provide a valid phone number."
 )
 ```
-
----
 
 ### **Conclusion**
 
@@ -369,8 +354,6 @@ For a multilingual agent in English and Spanish:
   ```
 
 If you update the condition in one language, the condition stays the same across all languages, but the response in other languages is cleared and needs to be set again.
-
----
 
 ### **Conclusion**
 
