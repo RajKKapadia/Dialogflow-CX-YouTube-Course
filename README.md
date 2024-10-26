@@ -1,6 +1,3 @@
-Here's a refined README file, now with visual flair, icons, and added organization to make it engaging and professional:
-
----
 
 # 🌟 Mastering Google Dialogflow CX 🌟
 
