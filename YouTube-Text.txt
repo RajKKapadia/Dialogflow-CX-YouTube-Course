@@ -1,0 +1,49 @@
+Master Google Dialogflow CX: Build a Food Ordering Chatbot (Free 4-Week Course)
+
+Description: Join us for a FREE 4-week course on mastering Google Dialogflow CX! Starting October 7, 2024, we'll dive deep into conversational AI and build a fully functional Food Ordering Chatbot from scratch.
+
+#DialogflowCX #ConversationalAI #chatbotdevelopment
+
+🎓 What you'll learn:
+Fundamentals of Dialogflow CX
+Creating intents, entities, pages, and flows
+Implementing webhooks with Python/Node.js
+Integrating external services
+Best practices for conversational design
+
+🗓️ Schedule:
+Week 1 (Oct 12, 9 PM IST): Introduction to Dialogflow CX
+Week 2 (Oct 19, 9 PM IST): Intents, Entities, Pages, and Flows
+Week 3 (Oct 26, 9 PM IST): Implementing Webhooks with Python/Node.js
+Week 4 (Nov 2, 9 PM IST): Integrations and Capstone Project
+
+This course is perfect for aspiring AI developers, software engineers, and anyone interested in chatbot development. No prior experience with Dialogflow is required, but basic programming knowledge is recommended.
+
+GitHub Repository: https://github.com/RajKKapadia/Dialogflow-CX-YouTube-Course
+
+👨‍💻 Register now: https://forms.gle/Az3axZGTp5ywYDjD6
+Don't miss this opportunity to enhance your AI skills and create a portfolio-worthy project. See you in class!
+
+Join my free community here: https://nas.io/learn-everything-about-chatbots
+
+Udemy course: https://www.udemy.com/course/master-google-dialogflow-build-smart-chatbots/
+
+Dicsord group: https://discord.gg/dKruft7Kqs
+
+Join this channel to get access to the perks:
+https://www.youtube.com/channel/UCOT01XvBSj12xQsANtTeAcQ/join
+
+You can contact me to build Chatbot and AI/ML/DL work.
+
+My Fiverr profile: https://www.fiverr.com/rajkkapadia
+My Upwork profile: https://www.upwork.com/freelancers/~0176aeacfcff7f1fc2
+My LinkedIn profile: https://www.linkedin.com/in/rajkkapadia/
+
+You can share your views on this video in the comment section.
+
+If you like my work, subscribe to my channel for more new videos.
+
+Enjoy the life, Feel the music.
+Peace.
+
+Tags: Dialogflow CX,Conversational AI,Chatbot Development,Python,Node.js,Google Cloud,Machine Learning,Natural Language Processing,Free Course,Web Development,AI Tutorial,Food Ordering Bot,Voice Assistant,Customer Service Automation,JavaScript,raj kapadia
